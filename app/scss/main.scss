@@ -1,11 +1,28 @@
-@import '_myreset.scss';
+html,body,ul,ol {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-/**
+body{
+    font-family:Helvetica,Arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    background: #79a8ae;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5em;
+}
 
-Your SASS
+.body--ready {
+    background: linear-gradient(to top,#cbebdb 0,#3794c0 120%);
+}
 
-**/
-
-h1{
-    color: red;
+.showtxt{
+    position:absolute;
+    width: 750px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -10%);
+    text-align:center;
+    color:#fff;
+    font-size:1.7em;
 }
