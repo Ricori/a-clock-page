@@ -1,3 +1,5 @@
+View：https://ricori.github.io/a-clock-page/
+
 Based on [my-webpack-template](https://github.com/Ricori/my-webpack-template).
 
 ## Build
